@@ -7,7 +7,8 @@ var heading = ['Id Producto', 'Nombre Producto', 'Descripcion Producto', 'Valor 
 
 var body =
     [
-        ['PI-0001', 'Guantes', 'Unidades dependiendo de tallas', '3'],
+        ['PI-0002', 'Mario Maker 2', 'Nintendo Switch', '235000'],
+        ['PI-0004', 'Pokémon legendas Arceus','Nintendo Switch ', '245000'],
 
     ];
 
@@ -22,7 +23,7 @@ export function CarritoCompras() {
                 <div >
                     <Table heading={heading} body={body} />
                 </div>
-                <h4>Total de la venta: 500000</h4>
+                <h4>Total de la venta: 235000</h4>
                 <button>Confirmar Compra</button>
             </div>
         </>

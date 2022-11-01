@@ -7,10 +7,11 @@ var heading = ['Id Producto', 'Nombre Producto','Descripcion Producto', 'Valor U
 
 var body =
     [
-    ['PI-0001', 'Guantes', 'Unidades dependiendo de tallas','36'],
-    ['PI-0002', 'Barrilla', 'TAmaños de 6 metros y define las pulagas','40'],
-    ['PI-0003', 'Brea','Brea sintetica por 6 kg', '56'],
- 
+        ['PI-0001', 'God of War', 'Xbox series S','250000','20'],
+        ['PI-0002', 'Mario Maker 2', 'Nintendo Switch','235000','10'],
+        ['PI-0003', 'BloodBorne','PlayStation 5 ', '245000','5'],
+        ['PI-0004', 'Pokémon legendas Arceus','Nintendo Switch ', '245000','15'],
+        ['PI-0005', 'Halo Master Chief Collection ','Xbox one ', '195000','1'],
     ];
 
 
