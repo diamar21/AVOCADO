@@ -19,8 +19,13 @@ class Navbar extends Component{
     render(){
         const {carro,esCarroVisible,mostrarCarro} = this.props
         return(
+            
             <nav style={styles.navbar}>
-                 <p>Logo</p>
+                 <p>Avocado Games</p>
+                 <button onclick="Productos()">Videojuegos</button>
+                 <button onclick="Productos()">Consolas</button>  
+                 <button onclick="SobreNosotros()">About Us</button>  
+                 
                  <Carro 
                     carro = {carro}
                     esCarroVisible = {esCarroVisible}

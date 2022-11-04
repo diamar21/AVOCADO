@@ -8,16 +8,17 @@ import Navbar from './components/Navbar'
 import Producto from './components/Producto';
 
 
+
 class App extends Component {
   state = {
       productos: [
-      {name:'tomate',price:'1500', img:'/productos/tomate.jpg'},
-      {name:'Arberjas',price:'2500', img:'/productos/arbejas.jpg'},
-      {name:'Lechuga',price:'500', img:'/productos/lechuga.jpg'},
+      {name:'God Of War',price:'250000', img:'/productos/god.jpg'},
+      {name:'Mario Kart 8 Deluxe',price:'230000', img:'/productos/mariokart8deluxe.jpg'},
+      {name:'Stray',price:'255000', img:'/productos/Stray.jpg'},
     ],
 
     carro : [
-      //{name:'tomate',price:'1500', img:'/productos/tomate.jpg',cantidad:1}
+      //{name:'God Of War',price:'250000', img:'/productos/god.jpg',cantidad: 1}
     ],
 
     esCarroVisible:false
