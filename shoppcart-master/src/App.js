@@ -11,9 +11,9 @@ import Producto from './components/Producto';
 class App extends Component {
   state = {
       productos: [
-      {name:'tomate',price:'1500', img:'/productos/tomate.jpg'},
-      {name:'Arberjas',price:'2500', img:'/productos/arbejas.jpg'},
-      {name:'Lechuga',price:'500', img:'/productos/lechuga.jpg'},
+      {name:'Mario Kart 8 Deluxe',price:'325000', img:'/productos/mario kart 8 deluxe.jpg'},
+      {name:'stray',price:'43500', img:'/productos/stray.jpg'},
+      {name:'god of war',price:'80500', img:'/productos/god.jpg'},
     ],
 
     carro : [
