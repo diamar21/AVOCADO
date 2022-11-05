@@ -34,7 +34,7 @@ class Carro extends Component{
                 }
             </span>
             <button style={styles.cart} onClick={mostrarCarro}>
-                    This is my car
+                   Carrito de Compras
             </button>
             {esCarroVisible?  <DetallesCarro carro = {carro}/> : null}
            
