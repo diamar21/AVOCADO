@@ -1,6 +1,15 @@
 import { Component } from "react";
 
 const styles = {
+    cart : {
+        backgroundColor:'#359A2C',
+        color:'#fff',
+        border:'none',
+        padding:'15px',
+        borderRadius:'15px',
+        cursor:'pointer'
+    },
+
     detallesCarro:{
         backgroundColor:"#fff",
         position: "absolute",
@@ -45,6 +54,9 @@ class DetallesCarro extends Component {
                         </li>
                     )}
                 </ul>
+                <button style={styles.cart} onclick="finalizarCompra">
+                 Finalizar compra
+                </button>
             </div>
         )
     }
