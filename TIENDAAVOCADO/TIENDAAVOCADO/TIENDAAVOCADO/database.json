@@ -1,0 +1,18 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "name": "control xbox",
+      "precio": 180000,
+      "descripcion": "Control inalambrico para xbox negro",
+      "cantidadStock": 12
+    },
+    {
+      "id": 3,
+      "name": "consola xbox",
+      "precio": 1400000,
+      "descripcion": "consola xbox series x",
+      "cantidadStock": 12
+    }
+  ]
+}
